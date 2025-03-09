@@ -5,7 +5,7 @@
   background: #2c3e50;
   padding: 15px 15px;
   color: white;
-  font-family: "Open-Sans";
+  font-family: "Roboto";
 }
 
 .logo-link {
@@ -53,9 +53,10 @@
 }
 
 @font-face {
-  font-family: "Open-Sans";
-  src: local("Open-Sans"),
-    url(../fonts/OpenSans-VariableFont_wdth\wght\ .woff) format("woff");
+  font-family: 'Roboto';
+  src: local('Roboto'), url(../Roboto-VariableFont_wdth\,wght.woff) format('woff');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
 }
 
 @media screen and (max-width: 768px) {
