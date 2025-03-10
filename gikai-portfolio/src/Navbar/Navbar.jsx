@@ -11,13 +11,13 @@ function Navbar() {
       </div>
       <ul className={isOpen ? "nav-menu open" : "nav-menu"}>
         <li>
-          <a href="#">Projects</a>
+          <a href="#" className="nav-item">Projects</a>
         </li>
         <li>
-          <a href="/services">About</a>
+          <a href="/services" className="nav-item">About</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#" className="nav-item">Contact</a>
         </li>
         <div className="close-menu" onClick={() => setIsOpen(false)}>
           ✖
