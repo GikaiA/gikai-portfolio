@@ -9,8 +9,7 @@
 
 .home {
   display: block;
-  position: absolute;
-  margin: auto;
+  text-align: center;
   /* top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
@@ -43,23 +42,31 @@
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
+  gap: 30px;
 }
 
+.projects-title{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+}
 
 .image {
-  height: 300px;
-  width: 300px;
+  height: 100%;
+  width: 850px;
   object-fit: cover;
+  border-radius: 14px;
 }
 .card {
   color: #000;
   background-color: #fff;
-  padding-bottom: 20px;
+  padding-bottom: 45px;
   box-shadow: 0 15px 25px #817c7c33;
   font-size: medium;
   border-radius: 14px;
   backdrop-filter: blur(2px);
   text-align: center;
   margin-bottom: 30px;
-  height: 450px;
+  height: 400px;
 }

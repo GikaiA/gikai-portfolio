@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import { Typewriter } from "react-simple-typewriter";
+import legendofti from '../images/legendofti.png'
 
 function Home() {
   return (
@@ -33,28 +34,16 @@ function Home() {
         </h1>
         <div className="projects-section">
           <div className="card">
-            <img className="image" src="/src/images/callofdutywallpaper.jpeg" />
-            <h3>Call of Duty</h3>
-            <h4>Esports</h4>
-            <a href="https://dotesports.com/call-of-duty/news/2024-call-of-duty-league-major-1-scores-schedule-results">
-              <button></button>
-            </a>
+            <img src={legendofti} alt="legendofti-thumbnail" className="image"></img>
+            <p>The LegendOfTi website highlights the content creator, LegendOfTi. It includes </p>
           </div>{" "}
           <div className="card">
-            <img className="image" src="/src/images/callofdutywallpaper.jpeg" />
-            <h3>Call of Duty</h3>
-            <h4>Esports</h4>
-            <a href="https://dotesports.com/call-of-duty/news/2024-call-of-duty-league-major-1-scores-schedule-results">
-              <button></button>
-            </a>
+            <img src={legendofti} alt="legendofti-thumbnail" className="image"></img>
+            <p>The LegendOfTi website highlights the content creator, LegendOfTi. It includes </p>
           </div>{" "}
           <div className="card">
-            <img className="image" src="/src/images/callofdutywallpaper.jpeg" />
-            <h3>Call of Duty</h3>
-            <h4>Esports</h4>
-            <a href="https://dotesports.com/call-of-duty/news/2024-call-of-duty-league-major-1-scores-schedule-results">
-              <button></button>
-            </a>
+            <img src={legendofti} alt="legendofti-thumbnail" className="image"></img>
+            <p>The LegendOfTi website highlights the content creator, LegendOfTi. It includes </p>
           </div>{" "}
         </div>
       </div>
