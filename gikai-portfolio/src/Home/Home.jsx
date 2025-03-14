@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import { Typewriter } from "react-simple-typewriter";
-import legendofti from '../images/legendofti.png'
+import legendofti from "../images/legendofti.png";
 
 function Home() {
   return (
@@ -28,22 +28,46 @@ function Home() {
           </p>
         </div>
       </div>
-      <div className="projects">
-        <h1 className="projects-title" id="projects">
+      <div className="projects" id="projects">
+        <h1 className="projects-title">
           Projects
         </h1>
         <div className="projects-section">
           <div className="card">
-            <img src={legendofti} alt="legendofti-thumbnail" className="image"></img>
-            <p>The LegendOfTi website highlights the content creator, LegendOfTi. It includes </p>
+            <img
+              src={legendofti}
+              alt="legendofti-thumbnail"
+              className="image"
+            ></img>
+            <p className="project-bio">
+              The LegendOfTi website highlights the content creator, LegendOfTi.
+              This custom portfolio website was designed and developed to
+              highlight the unique style and brand of the creator, integrating
+              social media and sponsor visibility enhancements to maximize
+              engagement and revenue.
+            </p>
           </div>{" "}
           <div className="card">
-            <img src={legendofti} alt="legendofti-thumbnail" className="image"></img>
-            <p>The LegendOfTi website highlights the content creator, LegendOfTi. It includes </p>
+            <img
+              src={legendofti}
+              alt="legendofti-thumbnail"
+              className="image"
+            ></img>
+            <p>
+              The LegendOfTi website highlights the content creator, LegendOfTi.
+              It includes{" "}
+            </p>
           </div>{" "}
           <div className="card">
-            <img src={legendofti} alt="legendofti-thumbnail" className="image"></img>
-            <p>The LegendOfTi website highlights the content creator, LegendOfTi. It includes </p>
+            <img
+              src={legendofti}
+              alt="legendofti-thumbnail"
+              className="image"
+            ></img>
+            <p>
+              The LegendOfTi website highlights the content creator, LegendOfTi.
+              It includes{" "}
+            </p>
           </div>{" "}
         </div>
       </div>

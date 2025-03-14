@@ -12,7 +12,7 @@ function Navbar() {
       </div>
       <ul className={isOpen ? "nav-menu open" : "nav-menu"}>
         <li>
-          <a href="#" className="nav-item">Projects</a>
+          <a href="#projects" className="nav-item">Projects</a>
         </li>
         <li>
           <a href="/services" className="nav-item">About</a>
