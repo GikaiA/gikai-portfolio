@@ -39,6 +39,7 @@ function Home() {
               alt="legendofti-thumbnail"
               className="image"
             ></img>
+            <div className="project-bio-section"></div>
             <p className="project-bio">
               The LegendOfTi website highlights the content creator, LegendOfTi.
               This custom portfolio website was designed and developed to
@@ -46,6 +47,7 @@ function Home() {
               social media and sponsor visibility enhancements to maximize
               engagement and revenue.
             </p>
+            </div>
           </div>{" "}
           <div className="card">
             <img
@@ -71,7 +73,6 @@ function Home() {
           </div>{" "}
         </div>
       </div>
-    </div>
   );
 }
 
