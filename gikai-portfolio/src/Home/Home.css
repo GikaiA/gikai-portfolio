@@ -44,7 +44,7 @@
   gap: 50px;
 }
 
-.aubprojects{
+.subprojects{
   display: flex;
 }
 
@@ -61,10 +61,11 @@
   height: 200px; /* Adjust image size */
   object-fit: contain; /* Ensures image fits without stretching */
   border-radius: 10px;
+  transition: 0.3s;
 }
 .card {
   /* display: flex; */
-  transition: 0.3s;
+  /* transition: 0.3s; */
   /* color: #000;
   background-color: #fff;
   padding-bottom: 45px;
@@ -78,7 +79,7 @@
   overflow: hidden;  */
 }
 
-.card:hover {
+.image:hover {
   transform: translateY(-10px);
 }
 

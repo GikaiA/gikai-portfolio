@@ -49,28 +49,28 @@ function Home() {
             </div>
           </div>
         </div>{" "}
-        {/* <div className="card">
-            <img
-              src={legendofti}
-              alt="legendofti-thumbnail"
-              className="image"
-            ></img>
-            <p>
-              The LegendOfTi website highlights the content creator, LegendOfTi.
-              It includes{" "}
-            </p>
-          </div>{" "} */}
-        {/* <div className="card">
-            <img
-              src={legendofti}
-              alt="legendofti-thumbnail"
-              className="image"
-            ></img>
-            <p>
-              The LegendOfTi website highlights the content creator, LegendOfTi.
-              It includes{" "}
-            </p>
-          </div>{" "} */}
+        <div className="card">
+          <img
+            src={legendofti}
+            alt="legendofti-thumbnail"
+            className="image"
+          ></img>
+          <p>
+            The LegendOfTi website highlights the content creator, LegendOfTi.
+            It includes{" "}
+          </p>
+        </div>{" "}
+        <div className="card">
+          <img
+            src={legendofti}
+            alt="legendofti-thumbnail"
+            className="image"
+          ></img>
+          <p>
+            The LegendOfTi website highlights the content creator, LegendOfTi.
+            It includes{" "}
+          </p>
+        </div>{" "}
       </div>
     </div>
   );
