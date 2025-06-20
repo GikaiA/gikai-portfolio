@@ -8,14 +8,14 @@ function Home() {
     <div className="home-section">
       <div className="home">
         <div className="hero-section">
-          <h1 className="hero-title">Hi I'm Gikai</h1>
+          <h1 className="hero-title">Hi, I'm Gikai</h1>
           <p className="hero-text">
             Aspiring
             <Typewriter
               cursor
               cursorBlinking
               delaySpeed={1000}
-              deleteSpeed={25}
+              deleteSpeed={0}
               loop={0}
               typeSpeed={75}
               cursorColor="#f39c12"
@@ -31,7 +31,6 @@ function Home() {
       <div className="projects" id="projects">
         <h1 className="projects-title">Projects</h1>
         <div className="projects-section">
-          <div className="subprojects">
             <div className="card">
               <img
                 src={legendofti}
@@ -46,8 +45,10 @@ function Home() {
                 creator, integrating social media and sponsor visibility
                 enhancements to maximize engagement and revenue.
               </p>
+              <div className="icons">
+                
+              </div>
             </div>
-          </div>
         </div>{" "}
         <div className="card">
           <img
