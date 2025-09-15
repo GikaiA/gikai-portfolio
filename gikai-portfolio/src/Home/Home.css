@@ -95,13 +95,18 @@
 }
 
 
-
+.skills-reaction{
+ display: flex;
+ justify-content: center;
+  
+}
 .skills-grid{
-  display: grid;
+  display: flex;
   flex-wrap: wrap;
 }
 
 .skill-icon{
   width: 100px;
   height: 100%;
+  color: white;
 }
