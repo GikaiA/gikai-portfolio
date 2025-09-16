@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+import { IconButton, useColorMode } from "@chakra-ui/react";
+import {FaMoon, FaSun} from "react-icons/fa";
 
 
-function Navbar() {
+const  Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const {colorMode, toggleColorMode} = useColorMode();
   return (
     <nav className="navbar">
       <div className="logo">
@@ -27,6 +30,13 @@ function Navbar() {
             Contact
           </a>
         </li>
+        <IconButton
+        aria-label="Toggle Dark Mode"
+          icon={colorMode === "light" ? <FaMoon /> : <FaSun />}
+          onClick={toggleColorMode}
+          variant="ghost"
+          size="lg"
+          />
         <div className="close-menu" onClick={() => setIsOpen(false)}>
           ✖
         </div>
