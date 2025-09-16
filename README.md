@@ -1,1 +1,0 @@
-# gikai-portfolio
